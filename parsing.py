@@ -1,6 +1,5 @@
 
-# Saauren Mankad
-# 30614473
+# Created by Saauren Mankad
 
 
 from math import pow

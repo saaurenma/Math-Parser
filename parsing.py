@@ -1,5 +1,5 @@
 
-# Created by Saauren Mankad
+# Authored by Saauren Mankad
 
 
 from math import pow

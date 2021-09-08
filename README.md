@@ -1,2 +1,2 @@
 # Math Parser
-A basic parser written in Python 3 that evaluates mathematical expressions.
+A basic parser written in Python 3 that uses stacks to evaluate mathematical expressions.

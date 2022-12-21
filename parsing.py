@@ -197,6 +197,8 @@ def complex_evaluation(tokens):
 
 
 def evaluation(string):
-    return complex_evaluation(tokenization(string))
-
-print(evaluation("((4+2)*3 - (1 /3))"))
+    try:
+        # implementation of the evaluate function goes here
+        return complex_evaluation(tokenization(string))
+    except Exception as e:
+        return "Invalid Expression"

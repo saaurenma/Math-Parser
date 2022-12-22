@@ -12,7 +12,10 @@
               <input type="text" class="form-control" name="expression" placeholder="Enter expression">
             </div>
             <button type="submit" class="btn btn-primary btn-block">Evaluate</button>
+
           </form>
+
+          
           {% if result %}
             <div class="expression mt-3 card text-center" >
               <h2>Expression</h2>
@@ -23,8 +26,32 @@
               <p>{{ result }}</p>
             </div>
           {% endif %}
+          <div class="result mt-3 card">
+            <div class="card-body">
+            <h2 style="text-align:center">Instructions</h2>
+            
+            <p>
+              The expression evaluator uses the <a href="https://en.wikipedia.org/wiki/Shunting_yard_algorithm">Shunting-Yard algorithm</a>  to parse and evaluate mathematical expressions.
+            </p>
+
+            <p>
+              This evaluator supports supports basic arithmetic operations such as addition, subtraction, multiplication, and division, as well as parentheses for grouping.
+            </p>
+
+            <p>Here are some examples of expressions that you can enter:</p>
+            <ul>
+              <li>2 + 3</li>
+              <li>(1 + 2) * 3</li>
+              <li>10 / 2</li>
+            </ul>
+
+          </div>
+          </div>
+          </div>
+
         </div>
       </div>
     </div>
+
   </body>
 </html>
